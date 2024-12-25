@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tích hợp Stringee</title>
+</head>
+
+<body>
+    <div>
+        <label for="callerId">Số điện thoại của bạn:</label>
+        <input id="callerId" value="842471052310" type="text" />
+    </div>
+    <div>
+        <label for="calleeId">Số điện thoại nhận cuộc gọi:</label>
+        <input id="calleeId" value="84982467073" type="text" />
+    </div>
+    <button id="callBtn">Gọi</button>
+
+    <!-- Video Elements -->
+    <video id="localVideo" autoplay muted style="width: 300px; height: 300px; background-color: #ddd"></video>
+    <video id="remoteVideo" autoplay style="width: 300px; height: 300px; background-color: #ddd"></video>
+
+    <script src="latest.sdk.bundle.min.js"></script>
+
+    <script>
+        var accessToken =
+            "eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTSy4wLjc3TE9JM0JoQ3JHQUdxNzhCcVB0RTVsRTZsQ0prVEMtMTcyNzk0ODAwNyIsImlzcyI6IlNLLjAuNzdMT0kzQmhDckdBR3E3OEJxUHRFNWxFNmxDSmtUQyIsImV4cCI6MTcyNzk1MTYwNywidXNlcklkIjoiMSJ9.NfOvjkPV2Wi5teIuhXKYJAaTu4vFd7MOPx7l1SKXQPI";
+        // Khởi tạo StringeeClient
+        const STRINGEE_SERVER_ADDRS = [
+            "wss://v1.stringee.com:6899/",
+            "wss://v2.stringee.com:6899/",
+        ];
+        var stringeeClient = new StringeeClient(STRINGEE_SERVER_ADDRS);
+
+        // Kết nối với Stringee Server
+        stringeeClient.connect(accessToken);
+
+        stringeeClient.on("connect", function () {
+            console.log("Đã kết nối với Stringee");
+        });
+
+        stringeeClient.on("authen", function (res) {
+            if (res.r === 0) {
+                console.log("Xác thực thành công");
+            } else {
+                console.log("Xác thực thất bại", res);
+            }
+        });
+        console.log(typeof StringeeClient); 
+        // Tạo sự kiện click cho nút "Gọi"
+        document.getElementById("callBtn").addEventListener("click", function () {
+            var fromNumber = document.getElementById("callerId").value;
+            var toNumber = document.getElementById("calleeId").value;
+            console.log(fromNumber, toNumber)
+            var call = new StringeeCall(stringeeClient, fromNumber, toNumber);
+            console.log('Call object:', call);
+            // Thực hiện cuộc gọi
+            call.makeCall();
+
+            call.on("addlocalstream", function (localStream) {
+                // Hiển thị video của người gọi
+                document.getElementById("localVideo").srcObject = localStream;
+            });
+
+            call.on("addremotestream", function (remoteStream) {
+                // Hiển thị video của người nhận
+                document.getElementById("remoteVideo").srcObject = remoteStream;
+            });
+
+            call.on("signalingstate", function (state) {
+                console.log("Trạng thái tín hiệu: ", state);
+            });
+
+            call.on("mediastate", function (state) {
+                console.log("Trạng thái media: ", state);
+            });
+
+            call.on("info", function (info) {
+                console.log("Thông tin cuộc gọi: ", info);
+            });
+
+            call.on("error", function (error) {
+                console.error("Lỗi trong quá trình gọi: ", error);
+            });
+
+             // Kịch bản TTS
+             var script = "Bạn có phải là Toàn không, xin chúc mừng bạn đã trúng thưởng iphone 16 promax";
+            call.sendTTS(script, function (res) {
+                if (res.r === 0) {
+                    console.log("Đang phát âm kịch bản TTS");
+                } else {
+                    console.error("Lỗi khi phát âm TTS: ", res);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gửi Tin Nhắn SMS với Stringee</title>
+</head>
+
+<body>
+    <div>
+        <label for="fromNumber">Số điện thoại gửi:</label>
+        <input id="fromNumber" value="842471052310" type="text" />
+    </div>
+    <div>
+        <label for="toNumber">Số điện thoại nhận:</label>
+        <input id="toNumber" value="84982467073" type="text" />
+    </div>
+    <div>
+        <label for="message">Nội dung tin nhắn:</label>
+        <textarea id="message" rows="4" cols="50"></textarea>
+    </div>
+    <button id="sendBtn">Gửi Tin Nhắn</button>
+
+    <script src="latest.sdk.bundle.min.js"></script>
+
+    <script>
+        var accessToken =
+            "eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTSy4wLjc3TE9JM0JoQ3JHQUdxNzhCcVB0RTVsRTZsQ0prVEMtMTcyNzk1MDQyOSIsImlzcyI6IlNLLjAuNzdMT0kzQmhDckdBR3E3OEJxUHRFNWxFNmxDSmtUQyIsImV4cCI6MTcyNzk1NDAyOSwidXNlcklkIjoiMSJ9.GPkPz4wIJ-eJJbJ0x8uUJg82n-wBOy66KGL7yGo9Nlk";
+        // Khởi tạo StringeeClient
+        const STRINGEE_SERVER_ADDRS = [
+            "wss://v1.stringee.com:6899/",
+            "wss://v2.stringee.com:6899/",
+        ];
+        var stringeeClient = new StringeeClient(STRINGEE_SERVER_ADDRS);
+
+        // Kết nối với Stringee Server
+        stringeeClient.connect(accessToken);
+
+        stringeeClient.on("connect", function () {
+            console.log("Đã kết nối với Stringee");
+        });
+
+        stringeeClient.on("authen", function (res) {
+            if (res.r === 0) {
+                console.log("Xác thực thành công");
+            } else {
+                console.log("Xác thực thất bại", res);
+            }
+        });
+
+        // Tạo sự kiện click cho nút "Gửi Tin Nhắn"
+        document.getElementById("sendBtn").addEventListener("click", function () {
+    var fromNumber = document.getElementById("fromNumber").value;
+    var toNumber = document.getElementById("toNumber").value;
+    var message = document.getElementById("message").value;
+
+    // Gửi tin nhắn SMS
+    fetch('https://api.stringee.com/v1/sms', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${accessToken}`
+        },
+        body: JSON.stringify({
+            from: fromNumber,
+            to: toNumber,
+            content: message
+        })
+    })
+    .then(response => {
+        // Log toàn bộ phản hồi
+        console.log("Phản hồi từ server:", response);
+        // Kiểm tra mã trạng thái HTTP
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json(); // Chuyển đổi sang JSON
+    })
+    .then(data => {
+        console.log("Nội dung phản hồi:", data); // Log nội dung phản hồi
+        if (data.r === 0) {
+            console.log("Tin nhắn đã được gửi thành công");
+        } else {
+            console.error("Lỗi khi gửi tin nhắn: ", data);
+        }
+    })
+    .catch(error => {
+        console.error("Có lỗi xảy ra: ", error);
+    });
+});
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="/" />
+    <title>EDON - Flant and Flower Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/@coreui/icons@3.0.1/css/all.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light px-4 py-2 d-flex align-items-center">
+            <a class="navbar-brand" routerLink="/">
+                <img [src]="logo" alt="" />
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav m-auto mt-2 py-4 mt-lg-0 menu">
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/shop">Shop <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/faq">Faq <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/about">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/blog">Blog <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/contact">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+
+                <p *ngIf="u_data">
+                    Hello, <b class="text-capitalize">{{ u_data.name }}</b>
+                </p>
+
+                <div class="header_account">
+                    <ul class="d-flex align-items-center">
+                        <li *ngIf="u_data" class="header_heart">
+                            <a routerLink="/heart">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li *ngIf="u_data" class="header_shopping_cart">
+                            <a routerLink="/cart">
+                                <i class="cil-cart font-weight-bold" style="color: #171717"></i>
+                            </a>
+                        </li>
+                        <li *ngIf="u_data">
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle btn-avatar" href="#" role="button" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img [src]="avatar" class="avatar" style="position: relative; border-radius: 50%"
+                                        alt="" />
+                                </a>
+                                <div class="dropdown-menu show-avatar text-dark">
+                                    <a class="dropdown-item btn-logout" (click)="logout()">Logout</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li *ngIf="!u_data" class="header_heart">
+                            <a routerLink="/login">
+                                <i class="far fa-user"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="text-center box-title">
+            <h3 class="title">About</h3>
+            <nav class="breadcrumb text-center d-flex justify-content-center">
+                <a class="breadcrumb-item default" routerLink="/">Home</a>
+                <span class="breadcrumb-item active">About</span>
+            </nav>
+        </div>
+        <img class="card-img mt-3" src="https://htmldemo.net/lukani/lukani/assets/img/about/about1.jpg" alt="...." />
+        <div class="container mt-5">
+            <div class="about_thumb">
+                <h4 class="pt-3">
+                    We Are A Digital Agency Focused On Delivering Content And Utility
+                    User-Experiences.
+                </h4>
+                <p>
+                    We are a digital agency dedicated to providing valuable content and
+                    user-centric experiences. Our focus lies in crafting unique, interactive
+                    experiences that captivate audiences. We've established ourselves as a
+                    distinctive digital entity, blending creativity with technology
+                    seamlessly.
+                </p>
+                <p>
+                    At our core, we emphasize building quality, unparalleled content.
+                    Recognizing content's pivotal role in engaging users, we not only create
+                    compelling narratives but also ensure the seamless transmission of core
+                    messages.
+                </p>
+                <p>
+                    Moreover, our emphasis extends to delivering utility-driven user
+                    experiences. We comprehend technology's transformative impact on user
+                    interactions, harnessing cutting-edge tools to develop responsive
+                    applications and interfaces that deliver tangible value.
+                </p>
+                <p>
+                    Proudly driving innovation and adaptability, we embrace each project.
+                    With a future-forward outlook, we're committed to shaping and enhancing
+                    how content and technology contribute to the success of our clients and
+                    partners.
+                </p>
+                <img src="https://htmldemo.net/lukani/lukani/assets/img/about/about-us-signature.png" alt="" />
+            </div>
+        </div>
+
+        <div class="banner-about position-relative">
+            <img class="mt-5 w-100 banner"
+                src="https://htmldemo.net/lukani/lukani/assets/img/about/about-us-policy-bg.jpg" alt="image" />
+            <div class="container pt-4 my-5">
+                <div class="row jsutify-content-center align-items-center content-about position-absolute py-5">
+                    <div class="col-md-4 icon pt-3">
+                        <img src="https://htmldemo.net/lukani/lukani/assets/img/about/About_icon1.png" alt="image" />
+                        <h4>Creative Design</h4>
+                        <p>
+                            Erat metus sodales eget dolor consectetuer, porta ut purus at et
+                            alias, nulla ornare velit amet
+                        </p>
+                    </div>
+                    <div class="col-md-4 icon pt-3">
+                        <img src="https://htmldemo.net/lukani/lukani/assets/img/about/About_icon2.png" alt="" />
+                        <h4>100% Money Back Guarantee</h4>
+                        <p>
+                            Erat metus sodales eget dolor consectetuer, porta ut purus at et
+                            alias, nulla ornare velit amet
+                        </p>
+                    </div>
+                    <div class="col-md-4 icon pt-3">
+                        <img src="https://htmldemo.net/lukani/lukani/assets/img/about/About_icon3.png" alt="" />
+                        <h4>Online Support 24/7</h4>
+                        <p>
+                            Erat metus sodales eget dolor consectetuer, porta ut purus at et
+                            alias, nulla ornare velit amet
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row pt-5">
+                <div class="col-md-4">
+                    <img class="w-100" src="https://htmldemo.net/lukani/lukani/assets/img/about/about2.jpg" alt="" />
+                    <h4>What Do We Do?</h4>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                        ab illo inventore veritatis et quasi architecto
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="w-100" src="https://htmldemo.net/lukani/lukani/assets/img/about/about3.jpg" alt="" />
+                    <h4>Our Mission</h4>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                        ab illo inventore veritatis et quasi architecto
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="w-100" src="https://htmldemo.net/lukani/lukani/assets/img/about/about4.jpg" alt="" />
+                    <h4>History Of Us</h4>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                        ab illo inventore veritatis et quasi architecto
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 newsletter_text">
+                    <h3 class="text-uppercase">KEEP CONNECTED</h3>
+                    <p>Get updates by subscribe our weekly newsletter</p>
+                </div>
+                <div class="col-md-6 newsletter_subscribe">
+                    <form [formGroup]="formPostData" (ngSubmit)="handleSubmit()">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" formControlName="email" placeholder="Enter your email address" />
+                        <button type="submit" [disabled]="!formPostData.valid">
+                            Subscribe
+                        </button>
+                        <div class="line"></div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-5">
+                    <div class="footer_widget_list">
+                        <div class="footer_logo">
+                            <a routerLink="/">
+                                <img [src]="logo" alt="anh" style="object-fit: cover" />
+                            </a>
+                        </div>
+                        <div class="footer_contact_list">
+                            <span>Our Location</span>
+                            <div style="margin-bottom: 10px"></div>
+                            <a><i class="fa fa-location-arrow" aria-hidden="true"></i> 238 Hoang
+                                Quoc Viet, Cau Giay, Ha Noi, Vietnam</a>
+                        </div>
+                        <div class="footer_contact_list">
+                            <span>24/7 hotline:</span>
+                            <div style="margin-bottom: 10px"></div>
+                            <a href="tel:0386564543">(+84)386564543</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="footer_widget_list">
+                        <div class="footer_menu">
+                            <ul class="d-flex justify-content-end">
+                                <li>
+                                    <a routerLink="/">Home</a>
+                                </li>
+                                <li>
+                                    <a routerLink="/shop">shop</a>
+                                </li>
+                                <li>
+                                    <a routerLink="/faq">faq</a>
+                                </li>
+                                <li>
+                                    <a routerLink="/blog">blog</a>
+                                </li>
+                                <li>
+                                    <a routerLink="/contact">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_social">
+                            <div class="social-buttons d-flex justify-content-end">
+                                <a href="https://www.facebook.com/BachkhoaAptech236HoangQuocViet" target="_blank"
+                                    class="social-button social-button--facebook" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" target="_blank"
+                                    class="social-button social-button--linkedin" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www.snapchat.com/" target="_blank"
+                                    class="social-button social-button--snapchat" aria-label="Snapchat">
+                                    <i class="fab fa-snapchat-ghost"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="social-button social-button--github"
+                                    aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://codepen.io/" target="_blank"
+                                    class="social-button social-button--codepen" aria-label="CodePen">
+                                    <i class="fab fa-codepen"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="copyright_right d-flex justify-content-end mt-3">
+                            <p>© Do not copy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

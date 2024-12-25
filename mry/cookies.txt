@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+html.design	TRUE	/	FALSE	1999999999	wpapp_visitor_id	67624e4833a7b
+html.design	TRUE	/	FALSE	1999999999	PHPSESSID	9vjs0ro8k0is0lb28ha1v9gjrs
+

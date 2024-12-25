@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="/" />
+    <title>EDON - Flant and Flower Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/@coreui/icons@3.0.1/css/all.min.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light px-4 py-2 d-flex align-items-center">
+            <a class="navbar-brand" routerLink="/">
+                <img [src]="logo" alt="" />
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav m-auto mt-2 py-4 mt-lg-0 menu">
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/shop">Shop <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/faq">Faq <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/about">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/blog">Blog <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/contact">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+
+                <p *ngIf="u_data">
+                    Hello, <b class="text-capitalize">{{ u_data.name }}</b>
+                </p>
+
+                <div class="header_account">
+                    <ul class="d-flex align-items-center">
+                        <li *ngIf="u_data" class="header_heart">
+                            <a routerLink="/heart">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li *ngIf="u_data" class="header_shopping_cart">
+                            <a routerLink="/cart">
+                                <i class="cil-cart font-weight-bold" style="color: #171717"></i>
+                            </a>
+                        </li>
+                        <li *ngIf="u_data">
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle btn-avatar" href="#" role="button" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img [src]="avatar" class="avatar" style="position: relative; border-radius: 50%"
+                                        alt="" />
+                                </a>
+                                <div class="dropdown-menu show-avatar text-dark">
+                                    <a class="dropdown-item btn-logout" (click)="logout()">Logout</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li *ngIf="!u_data" class="header_heart">
+                            <a routerLink="/login">
+                                <i class="far fa-user"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="text-center box-title">
+            <h3 class="title">Contact Us</h3>
+            <nav class="breadcrumb text-center d-flex justify-content-center">
+                <a class="breadcrumb-item default" routerLink="/">Home</a>
+                <span class="breadcrumb-item active">Contact</span>
+            </nav>
+            <div class="container"></div>
+        </div>
+
+        <div class="address pt-3 mb-5">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.6267803874694!2d105.78059437438769!3d21.047614387132406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab32dd484c53%3A0x4201b89c8bdfd968!2zMjM4IEhvw6BuZyBRdeG7kWMgVmnhu4d0LCBD4buVIE5odeG6vywgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1691584417443!5m2!1svi!2s"
+                width="100%" height="400px" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contact Us</h3>
+                    <hr />
+                    <p>
+                        We are a digital agency dedicated to providing valuable content and
+                        user-centric experiences. Our focus lies in crafting unique,
+                        interactive experiences that captivate audiences. We've established
+                        ourselves as a distinctive digital entity, blending creativity with
+                        technology seamlessly.
+                    </p>
+                    <p>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>Address: 238 Hoang
+                        Quoc Viet, Cau Giay, Ha Noi
+                    </p>
+                    <hr />
+                    <p>
+                        <i class="fa-regular fa-envelope"></i>Email: tuanflute275@example.com
+                    </p>
+                    <hr />
+                    <p>
+                        <i class="fa fa-phone" aria-hidden="true"></i>Phone: (+84) 345 687 652
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Tell Us Your Project</h3>
+                    <form [formGroup]="ContactForm" (ngSubmit)="handleSubmit()">
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form4Example1">Your Name (required)</label>
+                            <input type="text" id="form4Example1" formControlName="name" class="form-control"
+                                placeholder="Name*" />
+
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form4Example2">Your Email (required)</label>
+                            <input type="email" id="form4Example2" formControlName="email" class="form-control"
+                                placeholder="Email*" />
+
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form4Example3">Your Message</label>
+                            <textarea class="form-control" formControlName="message" id="form4Example3" rows="8"
+                                placeholder="Message*"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-dark mb-4" id="btn-contact">
+                            Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <hr />
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 newsletter_text">
+                    <h3 class="text-uppercase">KEEP CONNECTED</h3>
+                    <p>Get updates by subscribe our weekly newsletter</p>
+                </div>
+                <div class="col-md-6 newsletter_subscribe">
+                    <form [formGroup]="formPostData" (ngSubmit)="handleSubmit()">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" formControlName="email" placeholder="Enter your email address" />
+                        <button type="submit" [disabled]="!formPostData.valid">
+                            Subscribe
+                        </button>
+                        <div class="line"></div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-5">
+                    <div class="footer_widget_list">
+                        <div class="footer_logo">
+                            <a routerLink="/">
+                                <img [src]="logo" alt="anh" style="object-fit: cover" />
+                            </a>
+                        </div>
+                        <div class="footer_contact_list">
+                            <span>Our Location</span>
+                            <div style="margin-bottom: 10px"></div>
+                            <a><i class="fa fa-location-arrow" aria-hidden="true"></i> 238 Hoang
+                                Quoc Viet, Cau Giay, Ha Noi, Vietnam</a>
+                        </div>
+                        <div class="footer_contact_list">
+                            <span>24/7 hotline:</span>
+                            <div style="margin-bottom: 10px"></div>
+                            <a href="tel:0386564543">(+84)386564543</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="footer_widget_list">
+                        <div class="footer_menu">
+                            <ul class="d-flex justify-content-end">
+                                <li>
+                                    <a routerLink="/">Home</a>
+                                </li>
+                                <li>
+                                    <a routerLink="/shop">shop</a>
+                                </li>
+                                <li>
+                                    <a routerLink="/faq">faq</a>
+                                </li>
+                                <li>
+                                    <a routerLink="/blog">blog</a>
+                                </li>
+                                <li>
+                                    <a routerLink="/contact">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_social">
+                            <div class="social-buttons d-flex justify-content-end">
+                                <a href="https://www.facebook.com/BachkhoaAptech236HoangQuocViet" target="_blank"
+                                    class="social-button social-button--facebook" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" target="_blank"
+                                    class="social-button social-button--linkedin" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www.snapchat.com/" target="_blank"
+                                    class="social-button social-button--snapchat" aria-label="Snapchat">
+                                    <i class="fab fa-snapchat-ghost"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="social-button social-button--github"
+                                    aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://codepen.io/" target="_blank"
+                                    class="social-button social-button--codepen" aria-label="CodePen">
+                                    <i class="fab fa-codepen"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="copyright_right d-flex justify-content-end mt-3">
+                            <p>© Do not copy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

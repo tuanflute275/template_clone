@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo mã QR MB Bank</title>
+</head>
+<body>
+    <div>
+        <label for="accountNumber">Số tài khoản MB Bank:</label>
+        <input type="text" id="accountNumber" value="123456789012" />
+    </div>
+    <div>
+        <label for="amount">Số tiền:</label>
+        <input type="text" id="amount" value="10000" />
+    </div>
+    <div>
+        <label for="orderId">Mã đơn hàng:</label>
+        <input type="text" id="orderId" value="ORD123456" />
+    </div>
+    <button id="generateBtn">Tạo mã QR</button>
+    <br>
+    <img id="qrCode" alt="QR Code" />
+
+    <script>
+        document.getElementById('generateBtn').addEventListener('click', function () {
+            const bankCode = 'MB Bank';  // Mã ngân hàng (có thể thay đổi)
+            const accountNumber = document.getElementById('accountNumber').value;
+            const amount = document.getElementById('amount').value;
+            const orderId = document.getElementById('orderId').value;
+            const orderInfo = 'Thanh toán qua MB Bank';
+
+            // Tạo chuỗi thanh toán
+            const paymentString = `VNPAY|${bankCode}|${accountNumber}|${amount}|${orderId}|${orderInfo}`;
+
+            // Tạo mã QR
+            const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(paymentString)}&size=200x200`;
+            document.getElementById('qrCode').src = qrCodeUrl;
+        });
+    </script>
+</body>
+</html>

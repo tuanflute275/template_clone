@@ -1,0 +1,478 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 25 Sep 2024 11:53:00 at áhttps://lustria.g5plus.net/main +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" Ã¡https://lustria.g5plus.net/main -O1 "D:\template\dfggggggggg" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:26:34	Warning: 	Found for https://lustria.g5plus.net/elementor/checkout/
+12:26:34	Warning: 	File has moved from https://lustria.g5plus.net/elementor/checkout/ to https://lustria.g5plus.net/elementor/cart/
+12:31:26	Error: 	"Not Found" (404) at link https://lustria.g5plus.net/elementor/404pages (from lustria.g5plus.net/elementor/)
+12:40:31	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=645
+12:40:31	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=645 to /elementor/
+12:40:52	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=121
+12:40:52	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=121 to /elementor/
+12:41:16	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=126
+12:41:16	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=126 to /elementor/
+12:41:47	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=86
+12:41:47	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=86 to /elementor/
+12:42:25	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=118
+12:42:25	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=118 to /elementor/
+12:42:25	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=107
+12:42:25	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=107 to /elementor/
+12:42:52	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=119
+12:42:52	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=119 to /elementor/
+12:42:52	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=108
+12:42:52	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=108 to /elementor/
+12:43:20	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=120
+12:43:20	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=120 to /elementor/
+12:43:21	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=109
+12:43:21	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=109 to /elementor/
+12:44:03	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=110
+12:44:03	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=110 to /elementor/
+12:44:42	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=122
+12:44:42	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=122 to /elementor/
+12:45:12	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=111
+12:45:12	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=111 to /elementor/
+12:45:30	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=123
+12:45:30	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=123 to /elementor/
+12:45:31	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=113
+12:45:31	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=113 to /elementor/
+12:46:10	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=124
+12:46:10	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=124 to /elementor/
+12:46:10	Error: 	"Not Found" (404) at link https://lustria.g5plus.net/elementor/payments-returns (from lustria.g5plus.net/elementor/)
+12:46:10	Error: 	"Not Found" (404) at link https://lustria.g5plus.net/elementor/product-care (from lustria.g5plus.net/elementor/)
+12:46:18	Error: 	"Not Found" (404) at link https://lustria.g5plus.net/elementor/terms-conditions (from lustria.g5plus.net/elementor/)
+12:46:28	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=714
+12:46:28	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=714 to https://lustria.g5plus.net/main/home-01/
+12:49:21	Warning: 	Found for https://lustria.g5plus.net/main/checkout/
+12:49:21	Warning: 	File has moved from https://lustria.g5plus.net/main/checkout/ to https://lustria.g5plus.net/main/cart/
+12:56:59	Error: 	"Not Found" (404) at link https://lustria.g5plus.net/main/404pages (from https://lustria.g5plus.net/main/home-01/)
+13:02:08	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=645
+13:02:08	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=645 to /main/
+13:02:28	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=126
+13:02:28	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=126 to /main/
+13:02:56	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=125
+13:02:56	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=125 to /main/
+13:03:14	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=124
+13:03:14	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=124 to /main/
+13:03:23	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=123
+13:03:23	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=123 to /main/
+13:03:32	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=122
+13:03:32	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=122 to /main/
+13:03:44	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=121
+13:03:44	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=121 to /main/
+13:03:53	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=120
+13:03:53	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=120 to /main/
+13:03:53	Error: 	"Not Found" (404) at link https://lustria.g5plus.net/main/payments-returns (from https://lustria.g5plus.net/main/home-01/)
+13:03:53	Error: 	"Not Found" (404) at link https://lustria.g5plus.net/main/product-care (from https://lustria.g5plus.net/main/home-01/)
+13:03:56	Error: 	"Not Found" (404) at link https://lustria.g5plus.net/main/terms-conditions (from https://lustria.g5plus.net/main/home-01/)
+13:04:00	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=823
+13:04:00	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=823 to https://lustria.g5plus.net/main/home-02/
+13:04:58	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=119
+13:04:58	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=119 to /main/
+13:05:10	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=118
+13:05:10	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=118 to /main/
+13:05:13	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=117
+13:05:13	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=117 to /main/
+13:05:25	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=116
+13:05:25	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=116 to /main/
+13:05:38	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=115
+13:05:38	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=115 to /main/
+13:05:50	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=114
+13:05:50	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=114 to /main/
+13:05:53	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=113
+13:05:53	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=113 to /main/
+13:06:09	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=111
+13:06:09	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=111 to /main/
+13:06:09	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=863
+13:06:09	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=863 to https://lustria.g5plus.net/main/home-03/
+13:07:06	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=914
+13:07:06	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=914 to https://lustria.g5plus.net/main/home-04/
+13:08:13	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=962
+13:08:13	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=962 to https://lustria.g5plus.net/main/home-05/
+13:08:22	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1003
+13:08:22	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1003 to https://lustria.g5plus.net/main/home-06/
+13:09:39	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1018
+13:09:39	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1018 to https://lustria.g5plus.net/main/home-07/
+13:10:10	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1037
+13:10:10	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1037 to https://lustria.g5plus.net/main/home-08/
+13:20:01	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1106
+13:20:01	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1106 to https://lustria.g5plus.net/main/about-us/
+13:20:07	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1094
+13:20:07	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1094 to https://lustria.g5plus.net/main/contact-us/
+13:20:15	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1126
+13:20:15	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1126 to https://lustria.g5plus.net/main/team-members/
+13:22:04	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1148
+13:22:04	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1148 to https://lustria.g5plus.net/main/faq/
+13:22:33	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1702
+13:22:33	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1702 to https://lustria.g5plus.net/elementor/cart/
+13:22:38	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=823
+13:22:38	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=823 to https://lustria.g5plus.net/elementor/home-02/
+13:23:45	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=125
+13:23:45	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=125 to /elementor/
+13:23:48	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=863
+13:23:48	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=863 to https://lustria.g5plus.net/elementor/home-03/
+13:23:59	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=914
+13:23:59	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=914 to https://lustria.g5plus.net/elementor/home-04/
+13:24:12	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=962
+13:24:12	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=962 to https://lustria.g5plus.net/elementor/home-05/
+13:24:23	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1003
+13:24:23	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1003 to https://lustria.g5plus.net/elementor/home-06/
+13:24:30	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1018
+13:24:30	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1018 to https://lustria.g5plus.net/elementor/home-07/
+13:24:42	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1037
+13:24:42	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1037 to https://lustria.g5plus.net/elementor/home-08/
+13:32:01	Error: 	Exit requested by shell or user
+13:32:08	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=117
+13:32:08	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=117 to /elementor/
+13:32:09	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=116
+13:32:09	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=116 to /elementor/
+13:32:15	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=115
+13:32:15	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=115 to /elementor/
+13:32:16	Warning: 	Found for lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=114
+13:32:16	Warning: 	File has moved from lustria.g5plus.net/elementor/?action=yith-woocompare-add-product&id=114 to /elementor/
+13:32:22	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1723
+13:32:22	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1723 to https://lustria.g5plus.net/elementor/my-account/order-tracking/
+13:32:23	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=645
+13:32:23	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=645 to https://lustria.g5plus.net/elementor/product/aliquam-furniture/
+13:32:25	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=108
+13:32:25	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=108 to https://lustria.g5plus.net/elementor/product/phasellus-vel-hss/
+13:32:26	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=107
+13:32:26	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=107 to https://lustria.g5plus.net/elementor/product/tincidunt-malesuada/
+13:32:28	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=109
+13:32:28	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=109 to https://lustria.g5plus.net/elementor/product/morbi-tristique/
+13:32:30	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=113
+13:32:30	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=113 to https://lustria.g5plus.net/elementor/product/dignissim-venenatis/
+13:32:32	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=117
+13:32:32	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=117 to https://lustria.g5plus.net/elementor/product/convallis-quam-sit/
+13:32:38	Error: 	"Method Not Allowed" (405) at link https://lustria.g5plus.net/elementor/xmlrpc.php (from https://lustria.g5plus.net/elementor/how-to-plant-a-succulent/)
+13:32:38	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=76
+13:32:38	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=76 to https://lustria.g5plus.net/elementor/how-to-plant-a-succulent/
+13:32:38	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=72
+13:32:38	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=72 to https://lustria.g5plus.net/elementor/the-10-best-succulents-you-can-grow-indoors/
+13:32:39	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=27
+13:32:39	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=27 to https://lustria.g5plus.net/elementor/our-picks-low-light-plants/
+13:32:39	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=28
+13:32:39	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=28 to https://lustria.g5plus.net/elementor/succulant-flower-pot-plant/
+13:32:39	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=26
+13:32:39	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=26 to https://lustria.g5plus.net/elementor/the-ultimate-low-light-plant-3/
+13:32:39	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=29
+13:32:39	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=29 to https://lustria.g5plus.net/elementor/how-to-grow-healthy-succulent-plants/
+13:32:39	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=21
+13:32:39	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=21 to https://lustria.g5plus.net/elementor/green-and-white-leafed-plants/
+13:32:39	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1106
+13:32:39	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1106 to https://lustria.g5plus.net/elementor/about-us/
+13:32:40	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1094
+13:32:40	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1094 to https://lustria.g5plus.net/elementor/contact-us/
+13:32:40	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1126
+13:32:40	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1126 to https://lustria.g5plus.net/elementor/team-members/
+13:32:41	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1148
+13:32:41	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1148 to https://lustria.g5plus.net/elementor/faq/
+13:32:41	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1166
+13:32:41	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1166 to https://lustria.g5plus.net/elementor/coming-soon/
+13:32:42	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=3162
+13:32:42	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=3162 to https://lustria.g5plus.net/elementor/accordions/
+13:32:43	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=3165
+13:32:43	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=3165 to https://lustria.g5plus.net/elementor/alert-message/
+13:32:43	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2281
+13:32:43	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2281 to https://lustria.g5plus.net/elementor/banners/
+13:32:44	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=3159
+13:32:44	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=3159 to https://lustria.g5plus.net/elementor/buttons/
+13:32:44	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=3168
+13:32:44	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=3168 to https://lustria.g5plus.net/elementor/charts/
+13:32:45	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=3171
+13:32:45	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=3171 to https://lustria.g5plus.net/elementor/columns/
+13:32:45	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2640
+13:32:45	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2640 to https://lustria.g5plus.net/elementor/counter/
+13:32:46	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=3174
+13:32:46	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=3174 to https://lustria.g5plus.net/elementor/dividers/
+13:32:47	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=3230
+13:32:47	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=3230 to https://lustria.g5plus.net/elementor/gallery/
+13:32:47	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2680
+13:32:47	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2680 to https://lustria.g5plus.net/elementor/maps/
+13:32:48	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2763
+13:32:48	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2763 to https://lustria.g5plus.net/elementor/product-category/
+13:32:48	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2295
+13:32:48	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2295 to https://lustria.g5plus.net/elementor/info-box/
+13:32:49	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2673
+13:32:49	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2673 to https://lustria.g5plus.net/elementor/list/
+13:32:50	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2695
+13:32:50	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2695 to https://lustria.g5plus.net/elementor/our-team/
+13:32:50	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2710
+13:32:50	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2710 to https://lustria.g5plus.net/elementor/pricing/
+13:32:50	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2722
+13:32:50	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2722 to https://lustria.g5plus.net/elementor/progress-bar/
+13:32:51	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=3177
+13:32:51	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=3177 to https://lustria.g5plus.net/elementor/tabs/
+13:32:52	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2754
+13:32:52	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2754 to https://lustria.g5plus.net/elementor/video/
+13:32:52	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=3283
+13:32:52	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=3283 to https://lustria.g5plus.net/elementor/text-block/
+13:32:53	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2632
+13:32:53	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2632 to https://lustria.g5plus.net/elementor/count-down/
+13:33:11	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=5e9f92a01c986bafcabbafd145520b13&_wpnonce=075b5eed8c
+13:33:11	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=5e9f92a01c986bafcabbafd145520b13&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:17	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=121
+13:33:17	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=121 to https://lustria.g5plus.net/elementor/product/commodo-dolor/
+13:33:18	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=4c56ff4ce4aaf9573aa5dff913df997a&_wpnonce=075b5eed8c
+13:33:18	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=4c56ff4ce4aaf9573aa5dff913df997a&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:18	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=126
+13:33:18	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=126 to https://lustria.g5plus.net/elementor/product/aliquam-lobortis/
+13:33:19	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=069059b7ef840f0c74a814ec9237b6ec&_wpnonce=075b5eed8c
+13:33:19	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=069059b7ef840f0c74a814ec9237b6ec&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:19	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=86
+13:33:19	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=86 to https://lustria.g5plus.net/elementor/product/viverra-sollicitudin/
+13:33:21	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=93db85ed909c13838ff95ccfa94cebd9&_wpnonce=075b5eed8c
+13:33:21	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=93db85ed909c13838ff95ccfa94cebd9&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:21	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=118
+13:33:21	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=118 to https://lustria.g5plus.net/elementor/product/convallis-furniture/
+13:33:23	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=5ef059938ba799aaa845e1c2e8a762bd&_wpnonce=075b5eed8c
+13:33:23	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=5ef059938ba799aaa845e1c2e8a762bd&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:23	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=119
+13:33:23	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=119 to https://lustria.g5plus.net/elementor/product/condimentum-posuere/
+13:33:24	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=07e1cd7dca89a1678042477183b7ac3f&_wpnonce=075b5eed8c
+13:33:24	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=07e1cd7dca89a1678042477183b7ac3f&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:24	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=120
+13:33:24	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=120 to https://lustria.g5plus.net/elementor/product/condimentum-furniture/
+13:33:25	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=da4fb5c6e93e74d3df8527599fa62642&_wpnonce=075b5eed8c
+13:33:25	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=da4fb5c6e93e74d3df8527599fa62642&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:25	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=110
+13:33:25	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=110 to https://lustria.g5plus.net/elementor/product/egestas-dapibus/
+13:33:27	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=5f93f983524def3dca464469d2cf9f3e&_wpnonce=075b5eed8c
+13:33:27	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=5f93f983524def3dca464469d2cf9f3e&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:27	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=122
+13:33:27	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=122 to https://lustria.g5plus.net/elementor/product/auctor-sem/
+13:33:29	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=a0a080f42e6f13b3a2df133f073095dd&_wpnonce=075b5eed8c
+13:33:29	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=a0a080f42e6f13b3a2df133f073095dd&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:29	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=111
+13:33:29	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=111 to https://lustria.g5plus.net/elementor/product/duis-bibendum/
+13:33:30	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=698d51a19d8a121ce581499d7b701668&_wpnonce=075b5eed8c
+13:33:30	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=698d51a19d8a121ce581499d7b701668&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:30	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=123
+13:33:30	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=123 to https://lustria.g5plus.net/elementor/product/auctor-gravida-enim/
+13:33:31	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=202cb962ac59075b964b07152d234b70&_wpnonce=075b5eed8c
+13:33:31	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=202cb962ac59075b964b07152d234b70&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:31	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=73278a4a86960eeb576a8fd4c9ec6997&_wpnonce=075b5eed8c
+13:33:31	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=73278a4a86960eeb576a8fd4c9ec6997&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:31	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=124
+13:33:31	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=124 to https://lustria.g5plus.net/elementor/product/aliquet-auctor-sem/
+13:33:33	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=c8ffe9a587b126f152ed3d89a146b445&_wpnonce=075b5eed8c
+13:33:33	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=c8ffe9a587b126f152ed3d89a146b445&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/?removed_item=1
+13:33:33	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=2628
+13:33:33	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=2628 to https://lustria.g5plus.net/elementor/contact-from/
+13:33:33	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=24
+13:33:33	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=24 to https://lustria.g5plus.net/elementor/green-succulent-in-teal-ceramic-vase/
+13:33:33	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1702
+13:33:33	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1702 to https://lustria.g5plus.net/main/cart/
+13:33:49	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1723
+13:33:49	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1723 to https://lustria.g5plus.net/main/my-account/order-tracking/
+13:33:50	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=645
+13:33:50	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=645 to https://lustria.g5plus.net/main/product/aliquam-furniture/
+13:33:52	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=86
+13:33:52	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=86 to /main/
+13:33:52	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=108
+13:33:52	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=108 to https://lustria.g5plus.net/main/product/phasellus-vel-hss/
+13:33:52	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=108
+13:33:52	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=108 to /main/
+13:33:53	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=107
+13:33:53	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=107 to /main/
+13:33:54	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=107
+13:33:54	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=107 to https://lustria.g5plus.net/main/product/tincidunt-malesuada/
+13:33:56	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=109
+13:33:56	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=109 to https://lustria.g5plus.net/main/product/morbi-tristique/
+13:33:56	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=109
+13:33:56	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=109 to /main/
+13:33:58	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=113
+13:33:58	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=113 to https://lustria.g5plus.net/main/product/dignissim-venenatis/
+13:34:01	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=117
+13:34:01	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=117 to https://lustria.g5plus.net/main/product/convallis-quam-sit/
+13:34:03	Warning: 	Found for lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=110
+13:34:03	Warning: 	File has moved from lustria.g5plus.net/main/?action=yith-woocompare-add-product&id=110 to /main/
+13:34:05	Error: 	"Method Not Allowed" (405) at link https://lustria.g5plus.net/main/xmlrpc.php (from https://lustria.g5plus.net/main/how-to-plant-a-succulent/)
+13:34:05	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=76
+13:34:05	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=76 to https://lustria.g5plus.net/main/how-to-plant-a-succulent/
+13:34:05	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=72
+13:34:05	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=72 to https://lustria.g5plus.net/main/the-10-best-succulents-you-can-grow-indoors/
+13:34:05	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=27
+13:34:05	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=27 to https://lustria.g5plus.net/main/our-picks-low-light-plants/
+13:34:05	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=28
+13:34:05	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=28 to https://lustria.g5plus.net/main/succulant-flower-pot-plant/
+13:34:05	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=26
+13:34:05	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=26 to https://lustria.g5plus.net/main/the-ultimate-low-light-plant-3/
+13:34:05	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=29
+13:34:05	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=29 to https://lustria.g5plus.net/main/how-to-grow-healthy-succulent-plants/
+13:34:05	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=21
+13:34:05	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=21 to https://lustria.g5plus.net/main/green-and-white-leafed-plants/
+13:34:06	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1166
+13:34:06	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1166 to https://lustria.g5plus.net/main/coming-soon/
+13:34:06	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=3162
+13:34:06	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=3162 to https://lustria.g5plus.net/main/accordions/
+13:34:07	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=3165
+13:34:07	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=3165 to https://lustria.g5plus.net/main/alert-message/
+13:34:08	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2281
+13:34:08	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2281 to https://lustria.g5plus.net/main/banners/
+13:34:08	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=3159
+13:34:08	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=3159 to https://lustria.g5plus.net/main/buttons/
+13:34:08	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=3168
+13:34:08	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=3168 to https://lustria.g5plus.net/main/charts/
+13:34:08	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=3171
+13:34:08	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=3171 to https://lustria.g5plus.net/main/columns/
+13:34:09	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2640
+13:34:09	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2640 to https://lustria.g5plus.net/main/counter/
+13:34:09	Error: 	"Unknown error" (520) at link https://lustria.g5plus.net/main/?p=3174 (from https://lustria.g5plus.net/main/dividers/)
+13:34:09	Error: 	"Unknown error" (520) at link https://lustria.g5plus.net/main/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flustria.g5plus.net%2Fmain%2Fdividers%2F (from https://lustria.g5plus.net/main/dividers/)
+13:34:09	Error: 	"Unknown error" (521) at link https://lustria.g5plus.net/main/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flustria.g5plus.net%2Fmain%2Fdividers%2F&format=xml (from https://lustria.g5plus.net/main/dividers/)
+13:34:09	Error: 	"Unknown error" (521) at link https://lustria.g5plus.net/main/blogs (from https://lustria.g5plus.net/main/dividers/)
+13:34:09	Error: 	"Unknown error" (521) at link https://lustria.g5plus.net/main/faq (from https://lustria.g5plus.net/main/dividers/)
+13:34:09	Error: 	"Unknown error" (521) at link https://lustria.g5plus.net/main/checkout (from https://lustria.g5plus.net/main/dividers/)
+13:34:09	Error: 	"Unknown error" (521) at link https://lustria.g5plus.net/main/wp-content/cache/min/1/3dbf60f63a36762ad77e271d89600122.css (from https://lustria.g5plus.net/main/gallery/)
+13:34:09	Error: 	"Unknown error" (521) at link https://lustria.g5plus.net/main/wp-json/wp/v2/pages/3230 (from https://lustria.g5plus.net/main/gallery/)
+13:34:09	Error: 	"Unknown error" (521) at link https://lustria.g5plus.net/main/?p=3230 (from https://lustria.g5plus.net/main/gallery/)
+13:34:09	Error: 	"Unknown error" (521) at link https://lustria.g5plus.net/main/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flustria.g5plus.net%2Fmain%2Fgallery%2F (from https://lustria.g5plus.net/main/gallery/)
+13:34:09	Error: 	"Unknown error" (521) at link https://lustria.g5plus.net/main/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flustria.g5plus.net%2Fmain%2Fgallery%2F&format=xml (from https://lustria.g5plus.net/main/gallery/)
+13:34:10	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2680
+13:34:10	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2680 to https://lustria.g5plus.net/main/maps/
+13:34:10	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2763
+13:34:10	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2763 to https://lustria.g5plus.net/main/product-category/
+13:34:11	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2295
+13:34:11	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2295 to https://lustria.g5plus.net/main/info-box/
+13:34:11	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2673
+13:34:11	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2673 to https://lustria.g5plus.net/main/list/
+13:34:12	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2695
+13:34:12	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2695 to https://lustria.g5plus.net/main/our-team/
+13:34:13	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2710
+13:34:13	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2710 to https://lustria.g5plus.net/main/pricing/
+13:34:13	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2722
+13:34:13	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2722 to https://lustria.g5plus.net/main/progress-bar/
+13:34:13	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=3177
+13:34:13	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=3177 to https://lustria.g5plus.net/main/tabs/
+13:34:14	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2754
+13:34:14	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2754 to https://lustria.g5plus.net/main/video/
+13:34:14	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=3283
+13:34:14	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=3283 to https://lustria.g5plus.net/main/text-block/
+13:34:14	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2632
+13:34:14	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2632 to https://lustria.g5plus.net/main/count-down/
+13:34:33	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=5e9f92a01c986bafcabbafd145520b13&_wpnonce=d158e63ff0
+13:34:33	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=5e9f92a01c986bafcabbafd145520b13&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-01/?removed_item=1
+13:34:35	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=126
+13:34:35	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=126 to https://lustria.g5plus.net/main/product/aliquam-lobortis/
+13:34:38	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=069059b7ef840f0c74a814ec9237b6ec&_wpnonce=d158e63ff0
+13:34:38	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=069059b7ef840f0c74a814ec9237b6ec&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-01/?removed_item=1
+13:34:38	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=125
+13:34:38	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=125 to https://lustria.g5plus.net/main/product/aliquam-sit-amet/
+13:34:40	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=3def184ad8f4755ff269862ea77393dd&_wpnonce=d158e63ff0
+13:34:40	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=3def184ad8f4755ff269862ea77393dd&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-01/?removed_item=1
+13:34:40	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=124
+13:34:40	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=124 to https://lustria.g5plus.net/main/product/aliquet-auctor-sem/
+13:34:42	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=c8ffe9a587b126f152ed3d89a146b445&_wpnonce=d158e63ff0
+13:34:42	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=c8ffe9a587b126f152ed3d89a146b445&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-01/?removed_item=1
+13:34:42	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=123
+13:34:42	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=123 to https://lustria.g5plus.net/main/product/auctor-gravida-enim/
+13:34:43	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=202cb962ac59075b964b07152d234b70&_wpnonce=d158e63ff0
+13:34:43	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=202cb962ac59075b964b07152d234b70&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-01/?removed_item=1
+13:34:43	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=122
+13:34:43	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=122 to https://lustria.g5plus.net/main/product/auctor-sem/
+13:34:45	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=a0a080f42e6f13b3a2df133f073095dd&_wpnonce=d158e63ff0
+13:34:45	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=a0a080f42e6f13b3a2df133f073095dd&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-01/?removed_item=1
+13:34:45	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=121
+13:34:45	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=121 to https://lustria.g5plus.net/main/product/commodo-dolor/
+13:34:47	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=4c56ff4ce4aaf9573aa5dff913df997a&_wpnonce=d158e63ff0
+13:34:47	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=4c56ff4ce4aaf9573aa5dff913df997a&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-01/?removed_item=1
+13:34:47	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=120
+13:34:47	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=120 to https://lustria.g5plus.net/main/product/condimentum-furniture/
+13:34:49	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=da4fb5c6e93e74d3df8527599fa62642&_wpnonce=d158e63ff0
+13:34:49	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=da4fb5c6e93e74d3df8527599fa62642&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-01/?removed_item=1
+13:34:49	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=2628
+13:34:49	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=2628 to https://lustria.g5plus.net/main/contact-from/
+13:34:49	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=24
+13:34:49	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=24 to https://lustria.g5plus.net/main/green-succulent-in-teal-ceramic-vase/
+13:34:49	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=1712
+13:34:49	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=1712 to https://lustria.g5plus.net/main/wishlist/
+13:34:55	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=119
+13:34:55	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=119 to https://lustria.g5plus.net/main/product/condimentum-posuere/
+13:34:56	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=07e1cd7dca89a1678042477183b7ac3f&_wpnonce=d158e63ff0
+13:34:56	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=07e1cd7dca89a1678042477183b7ac3f&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-02/?removed_item=1
+13:34:56	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=118
+13:34:56	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=118 to https://lustria.g5plus.net/main/product/convallis-furniture/
+13:34:57	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=5ef059938ba799aaa845e1c2e8a762bd&_wpnonce=d158e63ff0
+13:34:57	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=5ef059938ba799aaa845e1c2e8a762bd&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-02/?removed_item=1
+13:34:57	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=eb160de1de89d9058fcb0b968dbbbd68&_wpnonce=d158e63ff0
+13:34:57	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=eb160de1de89d9058fcb0b968dbbbd68&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-02/?removed_item=1
+13:34:57	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=116
+13:34:57	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=116 to https://lustria.g5plus.net/main/product/curabitur-a-purus/
+13:34:59	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=c45147dee729311ef5b5c3003946c48f&_wpnonce=d158e63ff0
+13:34:59	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=c45147dee729311ef5b5c3003946c48f&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-02/?removed_item=1
+13:34:59	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=115
+13:34:59	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=115 to https://lustria.g5plus.net/main/product/diam-vel-neque/
+13:35:00	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=2b44928ae11fb9384c4cf38708677c48&_wpnonce=d158e63ff0
+13:35:00	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=2b44928ae11fb9384c4cf38708677c48&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-02/?removed_item=1
+13:35:00	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=114
+13:35:00	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=114 to https://lustria.g5plus.net/main/product/dignissim-furniture/
+13:35:01	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=5fd0b37cd7dbbb00f97ba6ce92bf5add&_wpnonce=d158e63ff0
+13:35:01	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=5fd0b37cd7dbbb00f97ba6ce92bf5add&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-02/?removed_item=1
+13:35:01	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=73278a4a86960eeb576a8fd4c9ec6997&_wpnonce=d158e63ff0
+13:35:01	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=73278a4a86960eeb576a8fd4c9ec6997&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-02/?removed_item=1
+13:35:01	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=111
+13:35:01	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=111 to https://lustria.g5plus.net/main/product/duis-bibendum/
+13:35:03	Warning: 	Found for https://lustria.g5plus.net/main/cart/?remove_item=698d51a19d8a121ce581499d7b701668&_wpnonce=d158e63ff0
+13:35:03	Warning: 	File has moved from https://lustria.g5plus.net/main/cart/?remove_item=698d51a19d8a121ce581499d7b701668&_wpnonce=d158e63ff0 to http://lustria.g5plus.net/main/home-02/?removed_item=1
+13:37:32	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=25
+13:37:32	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=25 to https://lustria.g5plus.net/main/five-white-plant-pots-2/
+13:37:32	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=23
+13:37:32	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=23 to https://lustria.g5plus.net/main/green-leafed-plant/
+13:37:32	Warning: 	Moved Permanently for https://lustria.g5plus.net/main/?p=22
+13:37:32	Warning: 	File has moved from https://lustria.g5plus.net/main/?p=22 to https://lustria.g5plus.net/main/closeup-photography-of-green-palm-leaves/
+13:37:49	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=1712
+13:37:49	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=1712 to https://lustria.g5plus.net/elementor/wishlist/
+13:37:55	Warning: 	Moved Permanently for https://lustria.g5plus.net/elementor/?p=125
+13:37:55	Warning: 	File has moved from https://lustria.g5plus.net/elementor/?p=125 to https://lustria.g5plus.net/elementor/product/aliquam-sit-amet/
+13:37:56	Warning: 	Found for https://lustria.g5plus.net/elementor/cart/?remove_item=3def184ad8f4755ff269862ea77393dd&_wpnonce=075b5eed8c
+13:37:56	Warning: 	File has moved from https://lustria.g5plus.net/elementor/cart/?remove_item=3def184ad8f4755ff269862ea77393dd&_wpnonce=075b5eed8c to http://lustria.g5plus.net/elementor/home-02/?removed_item=1
+13:37:57	Error: 	"Not Found" (404) at link https://lustria.g5plus.net/elementor/wp-content/uploads/revslider/slider-521.jpg (from https://lustria.g5plus.net/elementor/home-06/?add-to-cart=645)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&orderby=rating
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&orderby=rating (from https://lustria.g5plus.net/elementor/shop/?add-to-cart=122)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&orderby=date
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&orderby=date (from https://lustria.g5plus.net/elementor/shop/?add-to-cart=122)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&orderby=price
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&orderby=price (from https://lustria.g5plus.net/elementor/shop/?add-to-cart=122)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&orderby=price-desc
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&orderby=price-desc (from https://lustria.g5plus.net/elementor/shop/?add-to-cart=122)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&min_price=0&max_price=20
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&min_price=0&max_price=20 (from https://lustria.g5plus.net/elementor/shop/?add-to-cart=122)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&min_price=20&max_price=40
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&min_price=20&max_price=40 (from https://lustria.g5plus.net/elementor/shop/?add-to-cart=122)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&min_price=40&max_price=60
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&min_price=40&max_price=60 (from https://lustria.g5plus.net/elementor/shop/?add-to-cart=122)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&min_price=60&max_price=80
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&min_price=60&max_price=80 (from https://lustria.g5plus.net/elementor/shop/?add-to-cart=122)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&min_price=80&max_price=115
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add-to-cart=122&min_price=80&max_price=115 (from https://lustria.g5plus.net/elementor/shop/?add-to-cart=122)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=menu_order
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=menu_order (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=popularity
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=popularity (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=rating
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=rating (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=date
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=date (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=price
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=price (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=price-desc
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&orderby=price-desc (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&min_price=0&max_price=20
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&min_price=0&max_price=20 (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&min_price=20&max_price=40
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&min_price=20&max_price=40 (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&min_price=40&max_price=60
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&min_price=40&max_price=60 (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&min_price=60&max_price=80
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&min_price=60&max_price=80 (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&min_price=80&max_price=115
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/?q=%2Felementor%2Fshop%2F&add_to_wishlist=122&_wpnonce=a9cad17d68&min_price=80&max_price=115 (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+13:38:50	Warning: 	File not added due to mirror cancel: https://lustria.g5plus.net/elementor/shop/page/2/?add_to_wishlist=122&_wpnonce=a9cad17d68
+13:38:50	Error: 	"mirror stopped by user" (-1) at link https://lustria.g5plus.net/elementor/shop/page/2/?add_to_wishlist=122&_wpnonce=a9cad17d68 (from https://lustria.g5plus.net/elementor/shop/?add_to_wishlist=122&_wpnonce=a9cad17d68)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 45 minutes 50 seconds : 4175 links scanned, 3929 files written (718886285 bytes overall) [156881826 bytes received at 24705 bytes/sec], 684833730 bytes transferred using HTTP compression in 3222 files, ratio 17%, 15.9 requests per connection
+(44 errors, 423 warnings, 0 messages)

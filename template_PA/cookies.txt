@@ -1,0 +1,17 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+demo-zonex.myshopify.com	TRUE	/admin	FALSE	1999999999	shopify_web_return_to	%2Fadmin
+demo-zonex.myshopify.com	TRUE	/admin	FALSE	1999999999	_secure_admin_session_id	15b6814fba14858cb1c07dc9161c01f7
+demo-zonex.myshopify.com	TRUE	/admin	FALSE	1999999999	_secure_admin_session_id_csrf	15b6814fba14858cb1c07dc9161c01f7
+demo-zonex.myshopify.com	TRUE	/admin	FALSE	1999999999	_master_udr	eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWxqWlRjMVpESmhNQzB3WlRNd0xUUmlZakl0T1RSbFlpMDFORFk0WWpCa04yVXlOalVHT2daRlJnPT0iLCJleHAiOiIyMDI2LTA5LTI3VDA3OjMzOjMxLjg2NFoiLCJwdXIiOiJjb29raWUuX21hc3Rlcl91ZHIifX0%3D--229d053f4d395d9ebe5bb7ceb46d834e82405c53
+demo-zonex.myshopify.com	TRUE	/	FALSE	1999999999	_tracking_consent	%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22VNHN%22%2C%22reg%22%3A%22%22%7D
+demo-zonex.myshopify.com	TRUE	/	FALSE	1999999999	keep_alive	cd19ca64-13ec-450d-a654-3fb07efb03a2
+demo-zonex.myshopify.com	TRUE	/	FALSE	1999999999	localization	US
+demo-zonex.myshopify.com	TRUE	/	FALSE	1999999999	cart_currency	USD
+demo-zonex.myshopify.com	TRUE	/	FALSE	1999999999	_cmp_a	%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
+demo-zonex.myshopify.com	TRUE	/	FALSE	1999999999	_shopify_y	5ea22c7a-efb9-402b-8a31-cf6c5f03a504
+demo-zonex.myshopify.com	TRUE	/	FALSE	1999999999	_shopify_s	857dd083-5a80-4f82-add7-3909431399c2
+demo-zonex.myshopify.com	TRUE	/	FALSE	1999999999	_orig_referrer	http%3A%2F%2Fdemo-zonex.myshopify.com%2F
+demo-zonex.myshopify.com	TRUE	/	FALSE	1999999999	_landing_page	%2Fpassword
+demo-zonex.myshopify.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

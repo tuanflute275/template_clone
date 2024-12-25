@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 27 Sep 2024 14:33:30 at https://demo-zonex.myshopify.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://demo-zonex.myshopify.com/ -O1 "D:\template\template_PA" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:33:31	Warning: 	Found for https://demo-zonex.myshopify.com/
+14:33:31	Warning: 	File has moved from https://demo-zonex.myshopify.com/ to https://demo-zonex.myshopify.com/password
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 seconds : 3 links scanned, 1 files written (11521 bytes overall) [17790 bytes received at 8895 bytes/sec], 12046 bytes transferred using HTTP compression in 2 files, ratio 39%, 2.5 requests per connection
+(No errors, 2 warnings, 0 messages)

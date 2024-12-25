@@ -1,0 +1,13 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+lustria.g5plus.net	TRUE	/elementor/	FALSE	1999999999	wp_woocommerce_session_9411622613661180c3d917025e0ebcae	a0a6aeac2bf6a71dd09fab2883e49b86%7C%7C1727412941%7C%7C1727409341%7C%7C322ee83e0069d8c9c003d3c7bc139be6
+lustria.g5plus.net	TRUE	/elementor/	FALSE	1999999999	yith_wcwl_session_9411622613661180c3d917025e0ebcae	%7B%22session_id%22%3A%2278fb430d6fd449d4d81e528a6db660fa%22%2C%22session_expiration%22%3A1729832145%2C%22session_expiring%22%3A1729828545%2C%22cookie_hash%22%3A%22c4c082458df3bbbdda1ff781e52145fb%22%7D
+lustria.g5plus.net	TRUE	/elementor/	FALSE	1999999999	woocommerce_items_in_cart	1
+lustria.g5plus.net	TRUE	/elementor/	FALSE	1999999999	yith_woocompare_list	%5B645%2C121%2C126%2C86%2C118%2C107%2C119%2C108%2C120%2C109%2C110%2C122%2C111%2C123%2C113%2C124%2C125%2C117%2C116%2C115%2C114%5D
+lustria.g5plus.net	TRUE	/elementor/	FALSE	1999999999	woocommerce_cart_hash	5cc3f89f1b2159bb0cd034bb96c7fe4f
+lustria.g5plus.net	TRUE	/main/	FALSE	1999999999	woocommerce_items_in_cart	1
+lustria.g5plus.net	TRUE	/main/	FALSE	1999999999	wp_woocommerce_session_b4850ce6f419a3742a57b972ea3cca25	836c5b2b1a252f5f7ee9d0721c19a2cf%7C%7C1727413214%7C%7C1727409614%7C%7C73391a7f46e5349603545c0f9cdc71d6
+lustria.g5plus.net	TRUE	/main/	FALSE	1999999999	yith_wcwl_session_b4850ce6f419a3742a57b972ea3cca25	%7B%22session_id%22%3A%224773d4288a592cc6f44f21f592877426%22%2C%22session_expiration%22%3A1729832415%2C%22session_expiring%22%3A1729828815%2C%22cookie_hash%22%3A%22e39a1ee588be1a7e67c0b30007943bef%22%7D
+lustria.g5plus.net	TRUE	/main/	FALSE	1999999999	yith_woocompare_list	%5B645%2C126%2C125%2C124%2C123%2C122%2C121%2C120%2C119%2C118%2C117%2C116%2C115%2C114%2C113%2C111%2C86%2C108%2C107%2C109%2C110%5D
+lustria.g5plus.net	TRUE	/main/	FALSE	1999999999	woocommerce_cart_hash	a5d7b7cb39f661d99b0dec98350a6e2a
+

@@ -1,0 +1,6 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+14:33:31	525/525	---MCZ	200	added ('OK')	text/plain	etag:W/%22cacheable:8fa4c8b9eec5b3919fef1cff1d876dfa%22	https://demo-zonex.myshopify.com/robots.txt		(from )
+14:33:31	0/0	---M--	302	error ('Found')	text/html	date:Fri,%2027%20Sep%202024%2007:33:30%20GMT	https://demo-zonex.myshopify.com/	D:/template/template_PA/demo-zonex.myshopify.com/index.html	(from )
+14:33:32	11521/11521	---MCZ	200	added ('OK')	text/html	etag:W/%22cacheable:8adb8ce12a946e02334750fa4d61d22d%22	https://demo-zonex.myshopify.com/password	D:/template/template_PA/demo-zonex.myshopify.com/password.html	(from https://demo-zonex.myshopify.com/)
+14:33:32	0/0	---M--	303	error ('See%20Other')	text/html	date:Fri,%2027%20Sep%202024%2007:33:31%20GMT	https://demo-zonex.myshopify.com/admin	D:/template/template_PA/demo-zonex.myshopify.com/admin	(from https://demo-zonex.myshopify.com/password)
+14:33:32	0/0	---M--	302	error ('Found')	text/html	date:Fri,%2027%20Sep%202024%2007:33:31%20GMT	https://demo-zonex.myshopify.com/admin/auth/login	D:/template/template_PA/demo-zonex.myshopify.com/admin/auth/login	(from https://demo-zonex.myshopify.com/password)

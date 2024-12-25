@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download Word</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pizzip/3.0.6/pizzip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.19.1/docxtemplater.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+  </head>
+  <body>
+    <button onclick="downloadWord()">Download Word</button>
+
+    <div
+      id="dataContainer"
+      data-json='[
+        {"CHUCVU": null, "SOHOSO": "HQ12408240089", "CQCQ": "Đại sứ quán Việt Nam tại Hàn Quốc", "MADOAN": "HQ12408240089", "NOISINH": null, "TRANGTHAI": "LAP_BAN_GIAO", "ID": 76458, "MANHANTHAN": "CLS24082024103954", "HOTEN": "NGUYỄN VĂN AN", "SOHOCHIEU": "P00000016", "NGAYSINH": "21/07/1988"}
+    ]'
+    ></div>
+
+    <script>
+      async function downloadWord() {
+        const dataContainer = document.getElementById("dataContainer");
+        const jsonString = dataContainer.getAttribute("data-json");
+        const data = JSON.parse(jsonString);
+
+        // Đọc mẫu tài liệu từ tệp
+        const templateUrl = "template.docx";
+        fetch(templateUrl)
+          .then((response) => response.arrayBuffer())
+          .then((arrayBuffer) => {
+            const zip = new PizZip(arrayBuffer);
+            const doc = new window.Docxtemplater(zip, {
+              paragraphLoop: true,
+              linebreaks: true,
+            });
+
+            // Chèn dữ liệu vào mẫu
+            doc.render(data[0]);
+
+            const out = doc.getZip().generate({ type: "blob" });
+            saveAs(out, "data.docx");
+          })
+          .catch((err) => {
+            console.error("Error generating Word document:", err);
+          });
+      }
+    </script>
+
+    <script>
+      var data = [
+        {
+          CHUCVU: null,
+          SOHOSO: "HQ12408240089",
+          CQCQ: "Đại sứ quán Việt Nam tại Hàn Quốc",
+          MADOAN: "HQ12408240089",
+          NOISINH: null,
+          TRANGTHAI: "LAP_BAN_GIAO",
+          ID: "76458",
+          MANHANTHAN: "CLS24082024103954",
+          HOTEN: "NGUYỄN VĂN AN",
+          SOHOCHIEU: "P00000016",
+          NGAYSINH: "21/07/1988",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002488989",
+          CQCQ: "Tổng Lãnh sự quán Việt Nam tại Quảng Châu",
+          MADOAN: "CN50002488989",
+          NOISINH: "Vĩnh Phúc",
+          TRANGTHAI: "DUYET",
+          ID: "76446",
+          MANHANTHAN: "CN5024063",
+          HOTEN: "NGUYỄN THỊ HỒNG",
+          SOHOCHIEU: "B9991832",
+          NGAYSINH: "01/12/1989",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002488988",
+          CQCQ: "Cục Quản lý xuất nhập cảnh",
+          MADOAN: "CN50002488988",
+          NOISINH: "Vĩnh Phúc",
+          TRANGTHAI: "TRA_HO_CHIEU_CONG_HAM",
+          ID: "76445",
+          MANHANTHAN: "CN5024057",
+          HOTEN: "NGUYỄN THỊ NGUYỆT",
+          SOHOCHIEU: "B9725918",
+          NGAYSINH: "19/02/1991",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002488988",
+          CQCQ: "Cục Quản lý xuất nhập cảnh",
+          MADOAN: "CN50002488988",
+          NOISINH: "Vĩnh Phúc",
+          TRANGTHAI: "TRA_HO_CHIEU_CONG_HAM",
+          ID: "76445",
+          MANHANTHAN: "CN5024057",
+          HOTEN: "NGUYỄN THỊ NGUYỆT",
+          SOHOCHIEU: "Q00511233",
+          NGAYSINH: "19/02/1991",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002488987",
+          CQCQ: "Tổng Lãnh sự quán Việt Nam tại Quảng Châu",
+          MADOAN: "CN50002488987",
+          NOISINH: "Vĩnh Phúc",
+          TRANGTHAI: "TRA_HO_CHIEU_CONG_HAM",
+          ID: "76444",
+          MANHANTHAN: "CN5015395",
+          HOTEN: "VƯƠNG THỊ MAI",
+          SOHOCHIEU: "Q00511213",
+          NGAYSINH: "01/01/1972",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002488243",
+          CQCQ: "Tổng Lãnh sự quán Việt Nam tại Thượng Hải",
+          MADOAN: "CN50002488243",
+          NOISINH: "Cần Thơ",
+          TRANGTHAI: "TRA_HO_CHIEU_CONG_HAM",
+          ID: "75700",
+          MANHANTHAN: "CN5024043",
+          HOTEN: "CAO THỊ HỒNG THÚY",
+          SOHOCHIEU: "N2482940",
+          NGAYSINH: "04/10/1987",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002488243",
+          CQCQ: "Tổng Lãnh sự quán Việt Nam tại Thượng Hải",
+          MADOAN: "CN50002488243",
+          NOISINH: "Cần Thơ",
+          TRANGTHAI: "TRA_HO_CHIEU_CONG_HAM",
+          ID: "75700",
+          MANHANTHAN: "CN5024043",
+          HOTEN: "CAO THỊ HỒNG THÚY",
+          SOHOCHIEU: "Q00511218",
+          NGAYSINH: "04/10/1987",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002487867",
+          CQCQ: "Tổng Lãnh sự quán Việt Nam tại Quảng Châu",
+          MADOAN: "CN50002487867",
+          NOISINH: "Hậu Giang",
+          TRANGTHAI: "DUYET",
+          ID: "75324",
+          MANHANTHAN: "CN5024062",
+          HOTEN: "NGUYỄN THỊ BÍCH TRUYỀN",
+          SOHOCHIEU: "B9562295",
+          NGAYSINH: "17/10/1984",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002487866",
+          CQCQ: "Tổng Lãnh sự quán Việt Nam tại Quảng Châu",
+          MADOAN: "CN50002487866",
+          NOISINH: "Hà Nội",
+          TRANGTHAI: "DUYET",
+          ID: "75323",
+          MANHANTHAN: "CN5024061",
+          HOTEN: "TRỊNH PHƯƠNG HẠNH",
+          SOHOCHIEU: "C1365591",
+          NGAYSINH: "10/04/1993",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002487865",
+          CQCQ: "Tổng Lãnh sự quán Việt Nam tại Quảng Châu",
+          MADOAN: "CN50002487865",
+          NOISINH: "Hà Tĩnh",
+          TRANGTHAI: "DUYET",
+          ID: "75322",
+          MANHANTHAN: "CN5024060",
+          HOTEN: "NGUYỄN THỊ TRANG DUNG",
+          SOHOCHIEU: "C1268914",
+          NGAYSINH: "08/07/1992",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002487864",
+          CQCQ: "Cục Quản lý xuất nhập cảnh",
+          MADOAN: "CN50002487864",
+          NOISINH: "Quảng Ninh",
+          TRANGTHAI: "TRA_HO_CHIEU_CONG_HAM",
+          ID: "75321",
+          MANHANTHAN: "CN5024059",
+          HOTEN: "NGUYỄN THỊ THANH NHÀN",
+          SOHOCHIEU: "E01826332",
+          NGAYSINH: "11/10/1995",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002487864",
+          CQCQ: "Cục Quản lý xuất nhập cảnh",
+          MADOAN: "CN50002487864",
+          NOISINH: "Quảng Ninh",
+          TRANGTHAI: "TRA_HO_CHIEU_CONG_HAM",
+          ID: "75321",
+          MANHANTHAN: "CN5024059",
+          HOTEN: "NGUYỄN THỊ THANH NHÀN",
+          SOHOCHIEU: "Q00511235",
+          NGAYSINH: "11/10/1995",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002487863",
+          CQCQ: "Cục Quản lý xuất nhập cảnh",
+          MADOAN: "CN50002487863",
+          NOISINH: "Hậu Giang",
+          TRANGTHAI: "TRA_HO_CHIEU_CONG_HAM",
+          ID: "75320",
+          MANHANTHAN: "CN5024058",
+          HOTEN: "NGUYỄN THỊ THÚY",
+          SOHOCHIEU: "C04115598",
+          NGAYSINH: "19/11/1989",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002487863",
+          CQCQ: "Cục Quản lý xuất nhập cảnh",
+          MADOAN: "CN50002487863",
+          NOISINH: "Hậu Giang",
+          TRANGTHAI: "TRA_HO_CHIEU_CONG_HAM",
+          ID: "75320",
+          MANHANTHAN: "CN5024058",
+          HOTEN: "NGUYỄN THỊ THÚY",
+          SOHOCHIEU: "Q00511234",
+          NGAYSINH: "19/11/1989",
+        },
+        {
+          CHUCVU: null,
+          SOHOSO: "CN50002487863",
+          CQCQ: "Cục Quản lý xuất nhập cảnh",
+          MADOAN: "CN50002487863",
+          NOISINH: "Hậu Giang",
+          TRANGTHAI: "TRA_HO_CHIEU_CONG_HAM",
+          ID: "75320",
+          MANHANTHAN: "CN5024058",
+          HOTEN: "NGUYỄN THỊ THÚY",
+          SOHOCHIEU: "C0411598",
+          NGAYSINH: "19/11/1989",
+        },
+      ];
+
+      console.log(data.length);
+    </script>
+  </body>
+</html>
